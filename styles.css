@@ -1,8 +1,13 @@
 h1{
     color:bisque;
     font-size: 100px;
+    background: blue;
 }
 
 p{
     color:antiquewhite;
+}
+
+.nav{
+    color:white;
 }
