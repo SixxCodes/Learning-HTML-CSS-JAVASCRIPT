@@ -1,13 +1,18 @@
 h1{
     color:bisque;
-    font-size: 100px;
-    background: blue;
+    font-size: 10vh;
+    background: rgb(124, 84, 24);
 }
 
 p{
     color:antiquewhite;
 }
 
-.nav{
-    color:white;
+/* #logo{
+    height: 10vh;
+    width: 10vw;
+} */
+
+body{
+    background:rgb(245, 177, 114);
 }
