@@ -1,7 +1,8 @@
 h1{
     color:bisque;
-    font-size: 10vh;
+    font-size: 5vw;
     background: rgb(124, 84, 24);
+    text-shadow: 1px 1px 10px black;
 }
 
 p{
