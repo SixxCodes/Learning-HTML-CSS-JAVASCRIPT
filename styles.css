@@ -1,6 +1,7 @@
 body{
     background:rgb(245, 177, 114);
     font-family: 'Courier New';
+    
 }
 
 h1{
@@ -8,6 +9,7 @@ h1{
     font-size: 5vw;
     background: rgb(124, 84, 24);
     text-shadow: 1px 1px 10px black;
+    font-variant: small-caps;
 }
 
 p{
