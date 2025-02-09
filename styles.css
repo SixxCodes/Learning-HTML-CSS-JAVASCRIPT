@@ -1,3 +1,8 @@
+body{
+    background:rgb(245, 177, 114);
+    font-family: 'Courier New';
+}
+
 h1{
     color:bisque;
     font-size: 5vw;
@@ -14,6 +19,3 @@ p{
     width: 10vw;
 } */
 
-body{
-    background:rgb(245, 177, 114);
-}
