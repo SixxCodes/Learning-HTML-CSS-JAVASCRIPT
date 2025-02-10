@@ -10,6 +10,13 @@ h1{
     background: rgb(124, 84, 24);
     text-shadow: 1px 1px 10px black;
     font-variant: small-caps;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    /* shorthand:
+    background: no-repeat fixed 100% 100% / auto 
+    */
 }
 
 p{
