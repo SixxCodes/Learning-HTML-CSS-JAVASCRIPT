@@ -31,21 +31,35 @@ h1{
     height:30px;
     border: 3px solid rgb(124, 84, 24);
     font-variant: small-caps;
+    transition:ease-out 0.3s;
 }
 
 .buttons:hover{
     background-color: bisque;
     color: rgb(124, 84, 24);
+    width:200px;
+    /* transition: width 0.3s 0.3s;
+    height:35px;
+    transition: 0.3s; */ 
 }
 
 .buttons:active{
     background-color: rgb(124, 84, 24);
     color: bisque;
+    /* transition: 0s; */
 }
+
+
+
+
 
 .checkboxes:checked{
     scale:1.5;
 }
+
+
+
+
 
 .texts{
     width: 20vw;
@@ -58,6 +72,10 @@ h1{
     border: 3px solid rgb(124, 84, 24);
     outline: none;
 }
+
+
+
+
 
 /* #logo{
     height: 10vh;
