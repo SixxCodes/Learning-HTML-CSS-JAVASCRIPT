@@ -1,6 +1,7 @@
 body{
     background:rgb(245, 177, 114);
     font-family: 'Courier New';
+    font-variant: small-caps;
     margin:0;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,15 +17,10 @@ h1{
     font-size: 5vw;
     background: rgb(124, 84, 24);
     text-shadow: 1px 1px 10px black;
-    font-variant: small-caps;
     padding:10px 10px;
     border:5px dashed white;
     border-radius: 20px;
     margin:0px 30vw;
-}
-
-p{
-    color:antiquewhite;
 }
 
 .buttons{
@@ -45,6 +41,22 @@ p{
 .buttons:active{
     background-color: rgb(124, 84, 24);
     color: bisque;
+}
+
+.checkboxes:checked{
+    scale:1.5;
+}
+
+.texts{
+    width: 20vw;
+    font-size: 20px;
+    font-variant: small-caps;
+    border: 1px solid rgb(124, 84, 24);
+}
+
+.texts:focus{
+    border: 3px solid rgb(124, 84, 24);
+    outline: none;
 }
 
 /* #logo{
