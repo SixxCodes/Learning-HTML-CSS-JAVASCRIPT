@@ -27,6 +27,26 @@ p{
     color:antiquewhite;
 }
 
+.buttons{
+    background-color: rgb(124, 84, 24);
+    color: bisque;
+    font-size: large;
+    width:100px;
+    height:30px;
+    border: 3px solid rgb(124, 84, 24);
+    font-variant: small-caps;
+}
+
+.buttons:hover{
+    background-color: bisque;
+    color: rgb(124, 84, 24);
+}
+
+.buttons:active{
+    background-color: rgb(124, 84, 24);
+    color: bisque;
+}
+
 /* #logo{
     height: 10vh;
     width: 10vw;
