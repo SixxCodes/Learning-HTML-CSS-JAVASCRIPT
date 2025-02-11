@@ -1,7 +1,14 @@
 body{
     background:rgb(245, 177, 114);
     font-family: 'Courier New';
-    
+    margin:0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    /* shorthand:
+    background: no-repeat fixed 100% 100% / auto 
+    */
 }
 
 h1{
@@ -10,13 +17,10 @@ h1{
     background: rgb(124, 84, 24);
     text-shadow: 1px 1px 10px black;
     font-variant: small-caps;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-
-    /* shorthand:
-    background: no-repeat fixed 100% 100% / auto 
-    */
+    padding:10px 10px;
+    border:5px dashed white;
+    border-radius: 20px;
+    margin:0px 450px;;
 }
 
 p{
@@ -27,4 +31,3 @@ p{
     height: 10vh;
     width: 10vw;
 } */
-
