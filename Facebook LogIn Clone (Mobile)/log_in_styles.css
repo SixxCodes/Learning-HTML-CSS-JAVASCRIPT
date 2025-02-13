@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1{
+    color: rgb(24, 119, 242);
+    font-family: 'Helvetica Neue', Times, serif;
+}
+
+form{
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.192);
+    margin: 30px 50px;
+    padding: 20px;
+}
+
+.inside-form{
+    margin: 5px 0px;
+    font-family: sans-serif;
+}
+
+#username{
+    width:300px;
+    padding: 7px 0px;
+}
+
+#password{
+    width:300px;
+    padding: 7px 0px;
+}
+
+#log-in{
+    background-color: rgb(24, 119, 242);
+    border: 0;
+    width: 300px;
+    padding: 7px 0px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+#forgot-password{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#create-new-account{
+    margin-top: 40px;
+    border: 0;
+    color: white;
+    background-color: rgb(37, 156, 33);
+    width: 150px;
+    padding: 10px 0px;
+    border-radius: 3px;
+}
+
+footer{
+    position: absolute;
+    box-shadow: 0px -5px 50px 40px rgba(0, 0, 0, 0.103);
+    bottom: 0px;
+    height: 130px;
+    width: 100%;
+    color: rgb(100, 100, 100);
+}
