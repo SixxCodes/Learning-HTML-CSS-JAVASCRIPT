@@ -24,6 +24,10 @@ h1{
     box-shadow: 5px 5px 7px 5px rgb(53, 35, 8);
 }
 
+ul{
+    display:inline;
+}
+
 .buttons{
     background-color: rgb(124, 84, 24);
     color: bisque;
@@ -64,8 +68,10 @@ h1{
 
 
 .texts{
-    width: 20vw;
-    font-size: 20px;
+    width: 25vw;
+    height: 5vh;
+    font-size: 4vw;
+    font-size: 3vh;
     font-variant: small-caps;
     border: 1px solid rgb(124, 84, 24);
 }
