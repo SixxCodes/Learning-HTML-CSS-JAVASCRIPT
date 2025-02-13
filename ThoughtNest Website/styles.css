@@ -12,6 +12,25 @@ body{
     */
 }
 
+nav{
+    background-color: rgb(88, 68, 13);
+    padding: 5px;
+    position:  fixed;
+    top: 0;
+    width: 100%;
+}
+
+a{
+    color: bisque;
+    text-decoration: none;
+    margin:0 10px;
+    font-size:x-large;
+}
+
+#logo{
+    margin-top:50px;
+}
+
 h1{
     color:bisque;
     font-size: 5vw;
@@ -80,12 +99,3 @@ ul{
     border: 3px solid rgb(124, 84, 24);
     outline: none;
 }
-
-
-
-
-
-/* #logo{
-    height: 10vh;
-    width: 10vw;
-} */
