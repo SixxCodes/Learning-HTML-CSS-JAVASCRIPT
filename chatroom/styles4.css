@@ -67,23 +67,27 @@ h3{
     padding-left: 20px;
 }
 
-/* .side-bar{
+.chat-container{
+    background-color: #ff7d7d79;
+    height: 500px;
+    width: 845px;
+    position: absolute;
+    left: 360px;    
+    bottom: -40px;
+    margin: 130px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* box-shadow: 5px 5px 5px 3px #8b3c3c13, -5px -5px 5px 3px #8b3c3c13; */
+}
+
+.side-bar{
     background-color: #ff7d7d;
     height: 500px;
     width: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     position: absolute;
     left: 60px;    
     bottom: -40px;
     margin: 130px;
-} */
-
-.chat-container{
-    background-color: #ff7d7d;
-    height: 500px;
-    width: 1140px;
-    position: absolute;
-    left: 60px;    
-    bottom: -40px;
-    margin: 130px;
-    border-radius: 20px;
 }
