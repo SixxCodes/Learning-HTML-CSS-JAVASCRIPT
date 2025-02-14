@@ -12,10 +12,30 @@ body{
     margin-top: 70px;
     margin-left: 150px;
     margin-right: 150px;
+    margin-bottom: 30px;
     height: 600px;
+    box-shadow: 5px 5px 5px 5px #ff7d7d2a, -5px -5px 20px 20px #ff7d7d2a;
+    border-radius: 30px;
 }
 
 h1{
     margin: 0;
+    color: #ff7d7d;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 180px;
+    display: inline;
+    position: absolute;
+    left: 0px;
 }
 
+.button{
+    background-color: #ff80ee;
+}
+
+h3{
+    margin:0;
+    padding-left: 20px;
+}
