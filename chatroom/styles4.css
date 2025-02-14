@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    background-image: url('images/pink-bg.jpg');
+}
+
+.main-container{
+    background-color: rgb(249, 240, 255);
+    background-attachment: fixed;
+    background-size: contain;
+    text-align: center;
+    margin: 50px;
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 600px;
+}
+
+h1{
+    margin: 0;
+}
+
