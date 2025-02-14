@@ -32,7 +32,17 @@ h1{
 }
 
 .button{
-    background-color: #ff80ee;
+    background-color: #ff7d7d;
+    color: white;
+    border: 0;
+    border-radius: 50px;
+    padding: 15px;
+    width: 100px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 10px;
+    right: 190px;
+    /* width:  */
 }
 
 h3{
