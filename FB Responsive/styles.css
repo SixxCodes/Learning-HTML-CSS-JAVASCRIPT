@@ -1,0 +1,57 @@
+:root {
+  --customblue: #0076f5;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+}
+
+h1 {
+  color: var(--customblue);
+  font-weight: bold;
+}
+
+.input-container {
+  border: 1px solid black;
+}
+
+.login-btn {
+  background-color: var(--customblue);
+  border: 0;
+  color: white;
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: rgb(0, 112, 240);
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+
+}
+
+.create-btn {
+  background-color: rgb(1, 189, 1);
+  border: 0;
+  color: white;
+}
+
+.page-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
