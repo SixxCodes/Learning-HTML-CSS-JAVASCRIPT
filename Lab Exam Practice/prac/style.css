@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 200px;
+}
+
+.section-1 {
+    background-color: rgb(115, 198, 156);
+    color: white;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-list {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
