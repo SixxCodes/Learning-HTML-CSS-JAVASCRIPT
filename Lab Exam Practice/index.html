@@ -13,7 +13,10 @@
                 <img src="images/images.png" alt="Hexapod" class="logo">
                 <h2>Start</h2>
             </div>
-            <nav class="header-main-nav">
+
+            <button class="hamburger" id="hamburger">&#9776;</button>
+
+            <nav class="header-main-nav desktop-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#">Portfolio</a></li>
@@ -22,7 +25,106 @@
                 </ul>
             </nav>
         </header>
-        
 
+        <div class="sidebar" id="sidebar">
+            <button class="close-sidebar" id="close-sidebar">&times;</button>
+            <nav class="link-container mobile-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div id="overlay"></div>
+
+        <section class="section-1">
+            <div class="section-1-content">
+                <div class="section-1-content-text">
+                    <h1><span class="hide-mobile">The</span> Start</h1>
+                    <h2>Connecting Over What Truly Matters.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                    <button class="explore-btn">Explore</button>
+                </div>
+                <div class="section-1-content-img">
+                    <img src="images/um logo.png" alt="pic1"/>
+                </div>
+            </div>
+        </section>
+        <section class="section-2">
+            <div class="section-2-content">
+                <div class="section-2-content-img">
+                    <img src="images/um logo.png" alt="pic2"/>
+                </div>
+                <div class="section-2-content-text">
+                    <h2>Building Connections, One Message at a Time. Start Now.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="join-btn">Join the Conversation</button>
+                </div>
+            </div>
+        </section>
+        <section class="section-3">
+            <div class="section-3-content">
+                <div class="section-3-content-text">
+                    <h3>TEAM</h3>
+                    <h2>Meet the Team Behind Start</h2>
+                    <p>Our talented individuals are passionate about connecting people and building a vibrant community. Get to know the faces driving the innovation at Start.</p>
+                </div>
+                <div class="section-3-content-team">
+                    <div class="team-member">
+                        <img src="images/images.png" alt="Team Member 1">
+                        <h4>Peg Legge</h4>
+                        <p>CEO</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/images.png" alt="Team Member 2">
+                        <h4>Richard Guerra</h4>
+                        <p>CTO</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/images.png" alt="Team Member 3">
+                        <h4>Alexandra Stolz</h4>
+                        <p>DESIGNER</p>
+                    </div>
+                </div>
+                <div class="section-3-content-btn">
+                    <button class="view-btn">View Team</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-content-socials">
+                <img src="images/images.png" alt="socials1">
+                <img src="images/images.png" alt="socials2">
+                <img src="images/images.png" alt="socials3">
+            </div>
+            <div class="footer-content-text">
+                <p class="credits">@ Start. 2025. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script>
+            const hamburger = document.getElementById("hamburger");
+            const sidebar = document.getElementById("sidebar");
+            const overlay = document.getElementById("overlay");
+            const closeSidebar = document.getElementById("close-sidebar");
+        
+            hamburger.addEventListener("click", () => {
+                sidebar.classList.add("show");
+                overlay.classList.add("show");
+            });
+        
+            overlay.addEventListener("click", () => {
+                sidebar.classList.remove("show");
+                overlay.classList.remove("show");
+            });
+        
+            closeSidebar.addEventListener("click", () => {
+                sidebar.classList.remove("show");
+                overlay.classList.remove("show");
+            });
+        </script>
     </body>
 </html>
