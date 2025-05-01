@@ -103,7 +103,7 @@ a {
     font-size: 30px;
     background: none;
     border: none;
-    color: var(--main-color);
+    color: black;
     cursor: pointer;
     z-index: 1003;
 }
